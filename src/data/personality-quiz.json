@@ -1,0 +1,140 @@
+{
+  "investigative": {
+    "title": "Investigative",
+    "questions": [
+      "Are you inquisitive?",
+      "Are you analytical?",
+      "Are you scientific?",
+      "Are you observant?",
+      "Are you logical?",
+      "Are you precise?",
+      "Can you think abstractly?",
+      "Can you solve math problems?",
+      "Can you understand physics theories?",
+      "Can you do complex calculations?",
+      "Can you use a microscope?",
+      "Can you interpret formulas?",
+      "Do you like to explore ideas?",
+      "Do you like to use computers?",
+      "Do you like to work independently?",
+      "Do you like to perform lab experiments?",
+      "Do you like to read scientific or technical magazines?",
+      "Do you like to like to analyze data?"
+    ]
+  },
+  "artistic": {
+    "title": "Artistic",
+    "questions": [
+      "Are you creative?",
+      "Are you intuitive?",
+      "Are you imaginative?",
+      "Are you innovative?",
+      "Are you sensitive?",
+      "Are you an individualist?",
+      "Can you sketch, draw, paint?",
+      "Can you use intuition?",
+      "Can you play a musical instrument?",
+      "Can you write stories, poetry, music?",
+      "Can you develop new ideas, approaches?",
+      "Can you design fashions or interiors?",
+      "Do you like to problems in original ways?",
+      "Do you like to read fiction, plays, poetry?",
+      "Do you like to verbal abilities to speak, act, entertain?",
+      "Do you like to take photographs?",
+      "Do you like to use visualization abilities?",
+      "Do you like to express yourself creatively?"
+    ]
+  },
+  "realistic": {
+    "title": "Realistic",
+    "questions": [
+      "Are you practical?",
+      "Are you athletic?",
+      "Are you straightforward?",
+      "Are you mechanically inclined?",
+      "Are you a nature lover?",
+      "Are you curious about the physical world?",
+      "Can you fix electrical things?",
+      "Can you solve mechanical problems?",
+      "Can you pitch a tent?",
+      "Can you play a sport?",
+      "Can you read a blueprint?",
+      "Can you operate tools and machinery?",
+      "Do you like to tinker with machines?",
+      "Do you like to work outdoors?",
+      "Do you like to be physically active?",
+      "Do you like to work with your hands?",
+      "Do you like to build things?",
+      "Do you like to work on cars?"
+    ]
+  },
+  "social": {
+    "title": "Social",
+    "questions": [
+      "Are you friendly?",
+      "Are you helpful?",
+      "Are you idealistic?",
+      "Are you insightful about people?",
+      "Are you outgoing with others?",
+      "Are you understanding?",
+      "Can you teach or train others?",
+      "Can you express your feelings clearly?",
+      "Can you lead a group discussion?",
+      "Can you mediate disputes?",
+      "Can you cooperate well with others?",
+      "Can you work well in groups or teams?",
+      "Do you like to social and interpersonal skills?",
+      "Do you like to help people with their problems?",
+      "Do you like to lead groups?",
+      "Do you like to communication skills?",
+      "Do you like to teach or train others?",
+      "Do you like to provide support, empathy?"
+    ]
+  },
+  "enterprising": {
+    "title": "Enterprising",
+    "questions": [
+      "Are you self-confident?",
+      "Are you assertive?",
+      "Are you sociable?",
+      "Are you persuasive?",
+      "Are you enthusiastic?",
+      "Are you energetic?",
+      "Can you initiate projects?",
+      "Can you convince people to do things your way?",
+      "Can you sell things or promote ideas?",
+      "Can you give talks or speeches?",
+      "Can you organize activities and events?",
+      "Can you lead a group?",
+      "Do you like to make decisions affecting others?",
+      "Do you like to energy or drive?",
+      "Do you like to give speeches or talks?",
+      "Do you like to skills in argument or debate?",
+      "Do you like to take risks?",
+      "Do you like to organize and lead others?"
+    ]
+  },
+  "conventional": {
+    "title": "Conventional",
+    "questions": [
+      "Are you well-organized?",
+      "Are you accurate with details and numbers?",
+      "Are you interested in number crunching?",
+      "Are you methodical?",
+      "Are you conscientious about facts?",
+      "Are you efficient?",
+      "Can you work well within an authority system or organization?",
+      "Can you write reports?",
+      "Can you keep accurate records?",
+      "Can you use a computer terminal?",
+      "Can you perform calculations?",
+      "Can you gather, organize and report data?",
+      "Do you like to follow defined procedures?",
+      "Do you like to make charts, tables and graphs?",
+      "Do you like to work with numbers?",
+      "Do you like to type or do word processing?",
+      "Do you like to classify and organize information?",
+      "Do you like to be responsible for details?"
+    ]
+  }
+}
