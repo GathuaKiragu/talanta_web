@@ -10,7 +10,7 @@ const publicSchema = z.object({
     NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
 
     // Paystack
-    NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY: z.string().startsWith("pk_").optional(),
+    NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY: z.string().startsWith("pk_"),
 });
 
 const privateSchema = z.object({
@@ -21,7 +21,7 @@ const privateSchema = z.object({
     SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(), // Made optional to prevent dev crash if not using admin features
 
     // Paystack
-    PAYSTACK_SECRET_KEY: z.string().startsWith("sk_").optional(),
+    PAYSTACK_SECRET_KEY: z.string().startsWith("sk_"),
     PAYSTACK_WEBHOOK_SECRET: z.string().optional(),
 
     // AI Service

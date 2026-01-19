@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Bell, Shield, Eye, Smartphone, Palette, Globe, CreditCard } from "lucide-react";
+import Link from "next/link";
 
 export default function SettingsPage() {
     return (
@@ -99,7 +100,9 @@ export default function SettingsPage() {
                                 <p className="text-sm text-muted-foreground">Currently on the Free Plan. Upgrade for unlimited AI analysis.</p>
                             </div>
                         </div>
-                        <Button className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-6 rounded-xl shadow-lg">Upgrade Now</Button>
+                        <Link href="/pricing">
+                            <Button className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-6 rounded-xl shadow-lg">Upgrade Now</Button>
+                        </Link>
                     </div>
                 </Card>
             </div>

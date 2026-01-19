@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextResponse } from "next/server";
+import { env } from "@/lib/env";
 
 export async function POST(request: Request) {
     try {
@@ -17,7 +18,7 @@ export async function POST(request: Request) {
         }
 
         // Verify with Paystack
-        const paystackSecret = process.env.PAYSTACK_SECRET_KEY;
+        const paystackSecret = env.PAYSTACK_SECRET_KEY;
         const response = await fetch(`https://api.paystack.co/transaction/verify/${reference}`, {
             headers: {
                 Authorization: `Bearer ${paystackSecret}`,
