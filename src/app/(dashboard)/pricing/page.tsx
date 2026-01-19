@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check, Coins, Zap, Shield, ArrowRight, Loader2, AlertCircle, X } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
 import Script from "next/script";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
